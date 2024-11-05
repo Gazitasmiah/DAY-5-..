@@ -1,0 +1,50 @@
+.parent {
+    box-shadow: 7px 7px 20px rgba(201, 203, 204, 0.904);
+    width: 223px;
+    background-color: rgb(246, 249, 253);
+    position: relative;
+}
+.parent img {
+    width: 100%;
+}
+
+.parent .top span {
+    background-color: blueviolet; 
+    color: aliceblue;
+    border-radius:  0 10px 10px 0;
+    font-size: 12px;
+    padding: 3px 10px; 
+    display: inline-block; 
+    position: absolute;
+    top: 10px;
+
+}
+.contains h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+.contains h4:hover {
+color: rgb(182, 48, 25);
+text-decoration: underline;
+cursor:pointer ;
+}
+.contains { padding: 15px;}
+ ul li{
+    font-size: 15px; 
+    color:  #666;
+    margin: 8px;
+    
+}
+ul { padding-left: 15px;}
+.price span { color: rgb(192, 43, 6);}
+.price { text-align: center;} 
+.discount a { width: 100%;
+display: block;
+background-color: rgba(55, 73,187 , .05) ;
+padding: 5px 10px; 
+box-sizing: border-box;
+text-align: center;
+text-decoration-line: none ;
+border-radius: 5px;
+
+}
